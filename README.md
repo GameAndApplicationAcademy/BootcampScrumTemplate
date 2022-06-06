@@ -114,4 +114,38 @@ Alınan kararlar: Arkadaş ekle ve davet et özellikleri reddedildi.
 
 # Sprint 3
 
----
+-**Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir. Uygulamanın son aşamaları halledildi. Firebase bağlantısı sağlandı.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in 100 ile başlaması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz önem ve aciliyet sırasına göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. 
+
+Story'ler yapılacak işlere göre düzenlenmiştir. Trello'daki her görevin altında detaylı açıklaması bulunabilir. 
+
+- **Daily Scrum**: Herkesin ayrı yoğunluklarından dolayı ortak bir gün belirlenmiştir. Çarşamba akşamları genel bir gözden geçirme ve durumu değerlendirme toplantısı yapıldı. Developer ekibi cuma günleri kendi aralarında ek bir toplantı alıp gelişmeleri slack ve wp üzerinden bildirdiler. Trello kartlarında yapılan düzenlemelerle ürün takibi sağlandı. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/GameAndApplicationAcademy/YaBiKa_App/tree/main/DailiyScrum%20MeetingNotes3)
+
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Backlog_1.jpg) 
+![Backlog 2](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Backlog_2.jpg) 
+![Backlog 3](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Backlog_3.jpg)
+
+- **Ürün Durumu**: Ekran görüntüleri:
+  ![Screenshot 1](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Dersse%C3%A7me_ekran%C4%B1.jpg)
+  ![Screenshot 2](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Giri%C5%9F_ekran%C4%B1.jpg)
+  ![Screenshot 3](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Backlog_3.jpg)
+  ![Screenshot 4](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Liderliktablosu_ekran%C4%B1.jpg)
+  ![Screenshot 5](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Profil_ekran%C4%B1.jpg)
+  ![Screenshot 6](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Soru_ekran%C4%B1.jpg)
+  ![Screenshot 7](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Testeba%C5%9Flama_ekran%C4%B1.jpg)
+  ![Screenshot 8](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Testsonuekran%C4%B1_ekran%C4%B1.jpg)
+
+- **Sprint Review**: 
+Her şey tamamlandı, uygulama çalışıyor.
+
+- **Sprint Retrospective:**
+  Tahminimize göre daha uzun sürse de tüm hedeflere ulaşıldı.
+  Zaman ve maddi bakımdan kısıtlı olduğumuz için bazı şeyleri elemek zorunda kaldık, ona rağmen güzel bir uygulama çıkardık.
+  Güzel bir takım çalışması deneyimledik, birbirimizin açığını her zaman kapattık.
+  Tüm takım arkadaşlarıma bu süreçteki emekleri adına teşekkür ediyorum.
