@@ -52,7 +52,8 @@ class _RegisterPageState extends State<RegisterPage> {
         home: Scaffold(
             appBar: AppBar(
               centerTitle: true,
-              title: const Text('Kayıt ol'),
+              title: const Text('Kayıt Ol'),
+              backgroundColor: Colors.transparent,
               leading: IconButton(
                 icon: const Icon(Icons.arrow_back),
                 onPressed: () {
@@ -60,6 +61,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 },
               ),
             ),
+            backgroundColor: Colors.deepPurple.shade400,
             body: SingleChildScrollView(
               child: Center(
                 child: Column(
@@ -72,58 +74,58 @@ class _RegisterPageState extends State<RegisterPage> {
                       padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
                       child: Divider(),
                     ),
-                    Padding(padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 45.0),
+                    Padding(padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
                       child: TextField(
                         controller: t3,
                         decoration: InputDecoration(
                           border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(8.0),
+                            borderRadius: BorderRadius.circular(20.0),
                             borderSide: BorderSide.none,
                           ),
                           filled: true,
-                          fillColor: Colors.cyan,
+                          fillColor: Colors.white,
                           hintText: "İsim",
                         ),
                       ),
                     ),
-                    Padding(padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 45.0),
+                    Padding(padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
                       child: TextField(
                         controller: t4,
                         decoration: InputDecoration(
                           border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(8.0),
+                            borderRadius: BorderRadius.circular(20.0),
                             borderSide: BorderSide.none,
                           ),
                           filled: true,
-                          fillColor: Colors.cyan,
-                          hintText: "Soyisim",
+                          fillColor: Colors.white,
+                          hintText: "Soy İsim",
                         ),
                       ),
                     ),
-                    Padding(padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 45.0),
+                    Padding(padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
                       child: TextField(
                         controller: t1,
                         decoration: InputDecoration(
                           border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(8.0),
+                            borderRadius: BorderRadius.circular(20.0),
                             borderSide: BorderSide.none,
                           ),
                           filled: true,
-                          fillColor: Colors.cyan,
+                          fillColor: Colors.white,
                           hintText: "E-mail",
                         ),
                       ),
                     ),
-                    Padding(padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 45.0),
+                    Padding(padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
                       child: TextField(
                         controller: t2,
                         decoration: InputDecoration(
                           border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(8.0),
+                            borderRadius: BorderRadius.circular(20.0),
                             borderSide: BorderSide.none,
                           ),
                           filled: true,
-                          fillColor: Colors.cyan,
+                          fillColor: Colors.white,
                           hintText: "Şifre",
                         ),
                       ),
@@ -131,9 +133,14 @@ class _RegisterPageState extends State<RegisterPage> {
                     const SizedBox(
                       height: 20,
                     ),
-                    ElevatedButton(onPressed: kayitOl, child: const Text('Kayıt ol'),
+                    ElevatedButton(onPressed: kayitOl,
+                      child: const Text('Kayıt ol',
+                        style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold
+                        ),),
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.blueAccent,
+                        primary: Colors.yellow.shade600,
                         minimumSize: const Size(200,40),
                         alignment: Alignment.center,
                       ),)
@@ -145,6 +152,3 @@ class _RegisterPageState extends State<RegisterPage> {
     );
   }
 }
-
-
-

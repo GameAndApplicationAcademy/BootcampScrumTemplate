@@ -42,8 +42,8 @@ class _LoginPageState extends State<LoginPage> {
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Colors.cyan,
-                Colors.blue,
+                Colors.deepPurple,
+                Colors.yellow,
               ],
               begin: Alignment.topLeft,
               end: Alignment.centerRight,
@@ -61,7 +61,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: Column(
                     children: const [
                       Text(
-                          "Giriş yap",
+                          "Merhaba!",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 43.0,
@@ -81,44 +81,45 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
               Expanded(flex: 5,
-              child: Container(
-                width: double.infinity,
-                decoration: const BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(40),
-                    topRight: Radius.circular(40),
-                  )
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.all(24.0),
-                  child: Center(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        TextFormField(
-                          controller: t1,
-                          decoration: InputDecoration(
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(8.0),
-                              borderSide: BorderSide.none,
+                child: Container(
+                  width: double.infinity,
+                  decoration: const BoxDecoration(
+                      color: Colors.deepPurple,
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(40),
+                        topRight: Radius.circular(40),
+                      )
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(24.0),
+                    child: Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          TextFormField(
+                            controller: t1,
+                            decoration: InputDecoration(
+                                border: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(8.0),
+                                  borderSide: BorderSide.none,
+                                ),
+                                filled: true,
+                                fillColor: const Color(0xFFe7edeb),
+                                hintText: "E-mail",
+                                prefixIcon: Icon(
+                                  Icons.email,
+                                  color: Colors.grey[600],
+                                )
                             ),
-                            filled: true,
-                            fillColor: const Color(0xFFe7edeb),
-                            hintText: "E-mail",
-                            prefixIcon: Icon(
-                              Icons.email,
-                              color: Colors.grey[600],
-                            )
                           ),
-                        ),
-                        const SizedBox(
-                          height: 20.0,
-                        ),
-                        TextFormField(
-                          controller: t2,
-                          decoration: InputDecoration(
+                          const SizedBox(
+                            height: 10.0,
+                          ),
+                          TextFormField(
+                            obscureText: true,
+                            controller: t2,
+                            decoration: InputDecoration(
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(8.0),
                                 borderSide: BorderSide.none,
@@ -130,48 +131,48 @@ class _LoginPageState extends State<LoginPage> {
                                 Icons.vpn_key,
                                 color: Colors.grey[600],
                               ),
-                          ),
-                        ),
-                        const SizedBox(
-                          height: 30.0,
-                        ),
-                        Center(
-                        // It navigates and deletes the history to prevent to go back login.
-                        child: ElevatedButton(
-                            onPressed: girisYap,
-                            child: const Text('Giriş yap'),
-                            style: ElevatedButton.styleFrom(
-                              primary: Colors.cyan,
-                              minimumSize: const Size(200,40),
-                              alignment: Alignment.center,
                             ),
                           ),
-                        ),
-                        const SizedBox(
-                          height: 20,
-                        ),
-                        Center(
-                          child: ElevatedButton(
-                            onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => RegisterPage()
-                            ),
-                            );
-                          }, child: const Text('Kayıt ol'),
-                            style: ElevatedButton.styleFrom(
-                              primary: Colors.blueAccent,
-                              minimumSize: const Size(200,40),
-                              alignment: Alignment.center,
+                          const SizedBox(
+                            height: 30.0,
+                          ),
+                          Center(
+                            // It navigates and deletes the history to prevent to go back login.
+                            child: ElevatedButton(
+                              onPressed: girisYap,
+                              child: const Text('Giriş yap'),
+                              style: ElevatedButton.styleFrom(
+                                primary: Colors.deepPurple.shade400,
+                                minimumSize: const Size(200,40),
+                                alignment: Alignment.center,
+                              ),
                             ),
                           ),
-                        )
-                      ],
+                          const SizedBox(
+                            height: 20,
+                          ),
+                          Center(
+                            child: ElevatedButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => RegisterPage()
+                                  ),
+                                );
+                              }, child: const Text('Kayıt ol'),
+                              style: ElevatedButton.styleFrom(
+                                primary: Colors.yellow.shade600,
+                                minimumSize: const Size(200,40),
+                                alignment: Alignment.center,
+                              ),
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ),
-                ),
-              ),)
+                ),)
             ],
           ),
         ),

@@ -19,7 +19,7 @@ class _MaxTable4State extends State<MaxTable4> {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.deepPurple.shade400,
+          backgroundColor: Colors.deepPurple,
           centerTitle: true,
           title: const Text('Liderlik Tablosu'),
           leading: IconButton(
@@ -28,6 +28,7 @@ class _MaxTable4State extends State<MaxTable4> {
             }, icon: Icon(Icons.arrow_back),
           ),
         ),
+
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -48,15 +49,17 @@ class _MaxTable4State extends State<MaxTable4> {
                 itemBuilder: (context, index) {
                   return DataTable(
                     columns: const <DataColumn> [
+
                       DataColumn(
                         label: Text(
                           'İsim',
-                          style: TextStyle(fontWeight: FontWeight.bold),
+                          style: TextStyle(fontWeight: FontWeight.bold
+                          ),
                         ),
                       ),
                       DataColumn(
                         label: Text(
-                          'Soyisim',
+                          'Soy İsim',
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -85,14 +88,14 @@ class _MaxTable4State extends State<MaxTable4> {
             },
             ),
 
-           // Row(
-             // children: [
-               // Expanded(
-                 // child: ElevatedButton(onPressed: (){
-                   // firestore.updateData( );
-                  //}, child: Text("Arttır")),
-                //),
-              //],
+            // Row(
+            // children: [
+            // Expanded(
+            // child: ElevatedButton(onPressed: (){
+            // firestore.updateData( );
+            //}, child: Text("Arttır")),
+            //),
+            //],
             //)
           ],
         ),
