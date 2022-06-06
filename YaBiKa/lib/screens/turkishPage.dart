@@ -39,6 +39,7 @@ class _TurkishPageState extends State<TurkishPage> {
     //_startTimer();
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.redAccent.shade400,
         title: Text('1.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -73,6 +74,8 @@ class _TurkishPageState extends State<TurkishPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage2()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -82,6 +85,8 @@ class _TurkishPageState extends State<TurkishPage> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage2()));
                 firestore.updateData( );
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -90,6 +95,8 @@ class _TurkishPageState extends State<TurkishPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage2()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -98,6 +105,8 @@ class _TurkishPageState extends State<TurkishPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage2()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -106,6 +115,8 @@ class _TurkishPageState extends State<TurkishPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage2()));
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -114,6 +125,8 @@ class _TurkishPageState extends State<TurkishPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage2()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
           ],
@@ -137,6 +150,7 @@ class _TurkishPage2State extends State<TurkishPage2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.redAccent.shade400,
         title: Text('2.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -170,6 +184,8 @@ class _TurkishPage2State extends State<TurkishPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage3()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -178,6 +194,8 @@ class _TurkishPage2State extends State<TurkishPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage3()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -187,6 +205,8 @@ class _TurkishPage2State extends State<TurkishPage2> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage3()));
                 firestore.updateData( );
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -195,6 +215,8 @@ class _TurkishPage2State extends State<TurkishPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage3()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -203,6 +225,8 @@ class _TurkishPage2State extends State<TurkishPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage3()));
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -211,6 +235,8 @@ class _TurkishPage2State extends State<TurkishPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage3()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
           ],
@@ -233,6 +259,7 @@ class _TurkishPage3State extends State<TurkishPage3> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.redAccent.shade400,
         title: Text('3.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -266,6 +293,8 @@ class _TurkishPage3State extends State<TurkishPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage4()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -274,6 +303,8 @@ class _TurkishPage3State extends State<TurkishPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage4()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -282,6 +313,8 @@ class _TurkishPage3State extends State<TurkishPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage4()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -290,6 +323,8 @@ class _TurkishPage3State extends State<TurkishPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage4()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -299,6 +334,8 @@ class _TurkishPage3State extends State<TurkishPage3> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage4()));
                 firestore.updateData( );
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
             Positioned(
@@ -307,6 +344,8 @@ class _TurkishPage3State extends State<TurkishPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage4()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.redAccent.shade400),
               ),
             ),
           ],
@@ -328,6 +367,7 @@ class _TurkishPage4State extends State<TurkishPage4> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor: Colors.redAccent.shade400,
       title: Text('4.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -361,6 +401,8 @@ class _TurkishPage4State extends State<TurkishPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage5()));
             }, child: Text('A'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
           Positioned(
@@ -369,6 +411,8 @@ class _TurkishPage4State extends State<TurkishPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage5()));
             }, child: Text('B'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
           Positioned(
@@ -378,6 +422,8 @@ class _TurkishPage4State extends State<TurkishPage4> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage5()));
               firestore.updateData( );
             }, child: Text('C'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
           Positioned(
@@ -386,6 +432,8 @@ class _TurkishPage4State extends State<TurkishPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage5()));
             }, child: Text('D'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
           Positioned(
@@ -394,6 +442,8 @@ class _TurkishPage4State extends State<TurkishPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage5()));
             }, child: Text('E'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
           Positioned(
@@ -402,6 +452,8 @@ class _TurkishPage4State extends State<TurkishPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> TurkishPage5()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
         ],
@@ -423,6 +475,7 @@ class _TurkishPage5State extends State<TurkishPage5> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor: Colors.redAccent.shade400,
       title: Text('5.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -457,6 +510,8 @@ class _TurkishPage5State extends State<TurkishPage5> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
               firestore.updateData( );
             }, child: Text('A'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
           Positioned(
@@ -465,6 +520,8 @@ class _TurkishPage5State extends State<TurkishPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('B'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
           Positioned(
@@ -473,6 +530,8 @@ class _TurkishPage5State extends State<TurkishPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('C'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
           Positioned(
@@ -481,6 +540,8 @@ class _TurkishPage5State extends State<TurkishPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('D'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
           Positioned(
@@ -489,6 +550,8 @@ class _TurkishPage5State extends State<TurkishPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('E'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
           Positioned(
@@ -497,6 +560,8 @@ class _TurkishPage5State extends State<TurkishPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.redAccent.shade400),
             ),
           ),
         ],

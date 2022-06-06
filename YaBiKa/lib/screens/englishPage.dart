@@ -38,6 +38,7 @@ class _EnglishPageState extends State<EnglishPage> {
     //_startTimer();
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.purple.shade300,
         title: Text('1.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -73,6 +74,8 @@ class _EnglishPageState extends State<EnglishPage> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage2()));
                 firestore.updateData( );
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -81,6 +84,8 @@ class _EnglishPageState extends State<EnglishPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage2()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -89,6 +94,8 @@ class _EnglishPageState extends State<EnglishPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage2()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -97,6 +104,8 @@ class _EnglishPageState extends State<EnglishPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage2()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -105,6 +114,8 @@ class _EnglishPageState extends State<EnglishPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage2()));
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -113,6 +124,8 @@ class _EnglishPageState extends State<EnglishPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage2()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
           ],
@@ -136,6 +149,7 @@ class _EnglishPage2State extends State<EnglishPage2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.purple.shade300,
         title: Text('2.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -170,6 +184,8 @@ class _EnglishPage2State extends State<EnglishPage2> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage3()));
                 firestore.updateData( );
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -178,6 +194,8 @@ class _EnglishPage2State extends State<EnglishPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage3()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -186,6 +204,8 @@ class _EnglishPage2State extends State<EnglishPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage3()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -194,6 +214,8 @@ class _EnglishPage2State extends State<EnglishPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage3()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -202,6 +224,8 @@ class _EnglishPage2State extends State<EnglishPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage3()));
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -210,6 +234,8 @@ class _EnglishPage2State extends State<EnglishPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage3()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
           ],
@@ -232,6 +258,7 @@ class _EnglishPage3State extends State<EnglishPage3> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.purple.shade300,
         title: Text('3.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -265,6 +292,8 @@ class _EnglishPage3State extends State<EnglishPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage4()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -273,6 +302,8 @@ class _EnglishPage3State extends State<EnglishPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage4()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -282,6 +313,8 @@ class _EnglishPage3State extends State<EnglishPage3> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage4()));
                 firestore.updateData( );
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -290,6 +323,8 @@ class _EnglishPage3State extends State<EnglishPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage4()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -298,6 +333,8 @@ class _EnglishPage3State extends State<EnglishPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage4()));
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
             Positioned(
@@ -306,6 +343,8 @@ class _EnglishPage3State extends State<EnglishPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage4()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
               ),
             ),
           ],
@@ -327,6 +366,7 @@ class _EnglishPage4State extends State<EnglishPage4> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor: Colors.purple.shade300,
       title: Text('4.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -360,6 +400,8 @@ class _EnglishPage4State extends State<EnglishPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage5()));
             }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
             ),
           ),
           Positioned(
@@ -368,6 +410,8 @@ class _EnglishPage4State extends State<EnglishPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage5()));
             }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
             ),
           ),
           Positioned(
@@ -377,6 +421,8 @@ class _EnglishPage4State extends State<EnglishPage4> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage5()));
               firestore.updateData( );
             }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
             ),
           ),
           Positioned(
@@ -385,6 +431,8 @@ class _EnglishPage4State extends State<EnglishPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage5()));
             }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
             ),
           ),
           Positioned(
@@ -393,6 +441,8 @@ class _EnglishPage4State extends State<EnglishPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage5()));
             }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
             ),
           ),
           Positioned(
@@ -401,6 +451,8 @@ class _EnglishPage4State extends State<EnglishPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EnglishPage5()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.purple.shade300),
             ),
           ),
         ],
@@ -422,6 +474,7 @@ class _EnglishPage5State extends State<EnglishPage5> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor: Colors.purple.shade300,
       title: Text('5.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -455,6 +508,8 @@ class _EnglishPage5State extends State<EnglishPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
             ),
           ),
           Positioned(
@@ -463,6 +518,8 @@ class _EnglishPage5State extends State<EnglishPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
             ),
           ),
           Positioned(
@@ -471,6 +528,8 @@ class _EnglishPage5State extends State<EnglishPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
             ),
           ),
           Positioned(
@@ -479,6 +538,8 @@ class _EnglishPage5State extends State<EnglishPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
             ),
           ),
           Positioned(
@@ -488,6 +549,8 @@ class _EnglishPage5State extends State<EnglishPage5> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
               firestore.updateData( );
             }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.purple.shade300),
             ),
           ),
           Positioned(
@@ -496,6 +559,8 @@ class _EnglishPage5State extends State<EnglishPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.purple.shade300),
             ),
           ),
         ],

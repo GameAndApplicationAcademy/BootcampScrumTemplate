@@ -15,6 +15,7 @@ class ProfilePage extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.deepPurple.shade400,
           title: Text('Profil sayfası'),
           leading: IconButton(onPressed: () {
             Navigator.push(context, MaterialPageRoute(builder: (context)=> MainPage()));

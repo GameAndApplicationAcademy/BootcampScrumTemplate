@@ -39,6 +39,7 @@ class _QuestionPageState extends State<QuestionPage> {
             //_startTimer();
             return Scaffold(
                 appBar: AppBar(
+                  backgroundColor: Colors.green.shade600,
                 title: Text('1.Soru'),
             actions: [
             IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -74,46 +75,58 @@ class _QuestionPageState extends State<QuestionPage> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage2()));
                 firestore.updateData( );
               }, child: Text('A'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 330,
               left: 240,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage2()));
               }, child: Text('B'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 410,
               left: 50,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage2()));
               }, child: Text('C'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 410,
               left: 170,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage2()));
               }, child: Text('D'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 410,
               left: 290,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage2()));
               }, child: Text('E'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 510,
               left: 171,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage2()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
               ),
             ),
           ],
@@ -137,6 +150,7 @@ class _QuestionPage2State extends State<QuestionPage2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.green.shade600,
         title: Text('2.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -170,47 +184,59 @@ class _QuestionPage2State extends State<QuestionPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage3()));
               }, child: Text('A'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 330,
               left: 240,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage3()));
               }, child: Text('B'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 410,
               left: 50,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage3()));
               }, child: Text('C'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 410,
               left: 170,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage3()));
               }, child: Text('D'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 410,
               left: 290,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage3()));
                 firestore.updateData( );
               }, child: Text('E'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 510,
               left: 171,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage3()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
               ),
             ),
           ],
@@ -233,6 +259,7 @@ class _QuestionPage3State extends State<QuestionPage3> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.green.shade600,
         title: Text('3.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -266,47 +293,59 @@ class _QuestionPage3State extends State<QuestionPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage4()));
               }, child: Text('A'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 330,
               left: 240,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage4()));
               }, child: Text('B'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 410,
               left: 50,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage4()));
               }, child: Text('C'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 410,
               left: 170,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage4()));
               }, child: Text('D'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 410,
               left: 290,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage4()));
                 firestore.updateData( );
               }, child: Text('E'),
-              ),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
-            Positioned(
+          ),
+          Positioned(
               top: 510,
               left: 171,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage4()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
               ),
             ),
           ],
@@ -328,6 +367,7 @@ class _QuestionPage4State extends State<QuestionPage4> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor: Colors.green.shade600,
       title: Text('4.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -362,6 +402,8 @@ class _QuestionPage4State extends State<QuestionPage4> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage5()));
               firestore.updateData( );
             }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
           ),
           Positioned(
@@ -370,6 +412,8 @@ class _QuestionPage4State extends State<QuestionPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage5()));
             }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
           ),
           Positioned(
@@ -378,6 +422,8 @@ class _QuestionPage4State extends State<QuestionPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage5()));
             }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
           ),
           Positioned(
@@ -386,6 +432,8 @@ class _QuestionPage4State extends State<QuestionPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage5()));
             }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
           ),
           Positioned(
@@ -394,6 +442,8 @@ class _QuestionPage4State extends State<QuestionPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage5()));
             }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
           ),
           Positioned(
@@ -402,6 +452,8 @@ class _QuestionPage4State extends State<QuestionPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage5()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.green.shade600),
             ),
           ),
         ],
@@ -423,6 +475,7 @@ class _QuestionPage5State extends State<QuestionPage5> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor: Colors.green.shade600,
       title: Text('5.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -456,6 +509,8 @@ class _QuestionPage5State extends State<QuestionPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
           ),
           Positioned(
@@ -464,6 +519,8 @@ class _QuestionPage5State extends State<QuestionPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
           ),
           Positioned(
@@ -473,6 +530,8 @@ class _QuestionPage5State extends State<QuestionPage5> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
               firestore.updateData( );
             }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
           ),
           Positioned(
@@ -481,6 +540,8 @@ class _QuestionPage5State extends State<QuestionPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
           ),
           Positioned(
@@ -489,6 +550,8 @@ class _QuestionPage5State extends State<QuestionPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.green.shade600),
             ),
           ),
           Positioned(
@@ -497,6 +560,8 @@ class _QuestionPage5State extends State<QuestionPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.green.shade600),
             ),
           ),
         ],

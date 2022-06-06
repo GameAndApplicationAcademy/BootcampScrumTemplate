@@ -12,7 +12,9 @@ class LoadingPage extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       home: Scaffold(
-        appBar: AppBar(title: Text('')),
+        appBar: AppBar(
+            title: Text(''),
+            backgroundColor: Colors.deepPurple.shade400,),
         body: Center(
           child: Container(
             width: 3000,

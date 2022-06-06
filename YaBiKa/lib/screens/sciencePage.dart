@@ -38,6 +38,7 @@ class _SciencePageState extends State<SciencePage> {
     //_startTimer();
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepPurple.shade400,
         title: Text('1.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -72,6 +73,8 @@ class _SciencePageState extends State<SciencePage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage2()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -80,6 +83,8 @@ class _SciencePageState extends State<SciencePage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage2()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -88,6 +93,8 @@ class _SciencePageState extends State<SciencePage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage2()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -96,6 +103,8 @@ class _SciencePageState extends State<SciencePage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage2()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -105,6 +114,8 @@ class _SciencePageState extends State<SciencePage> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage2()));
                 firestore.updateData( );
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -113,6 +124,8 @@ class _SciencePageState extends State<SciencePage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage2()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
           ],
@@ -136,6 +149,7 @@ class _SciencePage2State extends State<SciencePage2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepPurple.shade400,
         title: Text('2.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -169,6 +183,8 @@ class _SciencePage2State extends State<SciencePage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage3()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -178,6 +194,8 @@ class _SciencePage2State extends State<SciencePage2> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage3()));
                 firestore.updateData( );
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -186,6 +204,8 @@ class _SciencePage2State extends State<SciencePage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage3()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -194,6 +214,8 @@ class _SciencePage2State extends State<SciencePage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage3()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -202,6 +224,8 @@ class _SciencePage2State extends State<SciencePage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage3()));
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -210,6 +234,8 @@ class _SciencePage2State extends State<SciencePage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage3()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
           ],
@@ -232,6 +258,7 @@ class _SciencePage3State extends State<SciencePage3> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepPurple.shade400,
         title: Text('3.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -265,6 +292,8 @@ class _SciencePage3State extends State<SciencePage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage4()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -273,6 +302,8 @@ class _SciencePage3State extends State<SciencePage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage4()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -281,6 +312,8 @@ class _SciencePage3State extends State<SciencePage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage4()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -289,6 +322,8 @@ class _SciencePage3State extends State<SciencePage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage4()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -298,6 +333,8 @@ class _SciencePage3State extends State<SciencePage3> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage4()));
                 firestore.updateData( );
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
             Positioned(
@@ -306,6 +343,8 @@ class _SciencePage3State extends State<SciencePage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage4()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepPurple.shade400),
               ),
             ),
           ],
@@ -327,6 +366,7 @@ class _SciencePage4State extends State<SciencePage4> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor: Colors.deepPurple.shade400,
       title: Text('4.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -361,6 +401,8 @@ class _SciencePage4State extends State<SciencePage4> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage5()));
               firestore.updateData( );
             }, child: Text('A'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
           Positioned(
@@ -369,6 +411,8 @@ class _SciencePage4State extends State<SciencePage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage5()));
             }, child: Text('B'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
           Positioned(
@@ -377,6 +421,8 @@ class _SciencePage4State extends State<SciencePage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage5()));
             }, child: Text('C'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
           Positioned(
@@ -385,6 +431,8 @@ class _SciencePage4State extends State<SciencePage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage5()));
             }, child: Text('D'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
           Positioned(
@@ -393,6 +441,8 @@ class _SciencePage4State extends State<SciencePage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage5()));
             }, child: Text('E'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
           Positioned(
@@ -401,6 +451,8 @@ class _SciencePage4State extends State<SciencePage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> SciencePage5()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
         ],
@@ -422,6 +474,7 @@ class _SciencePage5State extends State<SciencePage5> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor:Colors.deepPurple.shade400,
       title: Text('5.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -455,6 +508,8 @@ class _SciencePage5State extends State<SciencePage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('A'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
           Positioned(
@@ -463,6 +518,8 @@ class _SciencePage5State extends State<SciencePage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('B'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
           Positioned(
@@ -472,6 +529,8 @@ class _SciencePage5State extends State<SciencePage5> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
               firestore.updateData( );
             }, child: Text('C'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
           Positioned(
@@ -480,6 +539,8 @@ class _SciencePage5State extends State<SciencePage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('D'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
           Positioned(
@@ -488,6 +549,8 @@ class _SciencePage5State extends State<SciencePage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('E'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
           Positioned(
@@ -496,6 +559,8 @@ class _SciencePage5State extends State<SciencePage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple.shade400),
             ),
           ),
         ],

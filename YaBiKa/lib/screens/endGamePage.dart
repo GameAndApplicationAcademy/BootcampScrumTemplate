@@ -18,6 +18,7 @@ class EndGamePage extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
+            backgroundColor: Colors.deepPurple.shade400,
             title: Text('Test sonu'),
             centerTitle: true,
         ),

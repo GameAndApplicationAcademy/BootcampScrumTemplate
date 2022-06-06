@@ -17,7 +17,7 @@ class ChooseLessonPage extends StatelessWidget {
       appBar: AppBar(
           title: Text('Dersler'),
           centerTitle: true,
-          backgroundColor: Colors.blueGrey[900],
+          backgroundColor: Colors.deepPurple.shade400,
           actions: [
             Row(
             children: [
@@ -192,14 +192,14 @@ class ChooseLessonPage extends StatelessWidget {
         ),
         // Scaffold Drawer
         drawer: Drawer(
-      backgroundColor: Colors.blueGrey[900],
+        backgroundColor: Colors.deepPurple.shade500,
         child: SafeArea(
           child: ListView(
             padding: EdgeInsets.zero,
             children: <Widget>[
               DrawerHeader(
                 decoration: BoxDecoration(
-                  color: Colors.blueGrey[900],
+                  color: Colors.amberAccent.shade400,
                 ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,

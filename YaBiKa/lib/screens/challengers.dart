@@ -19,7 +19,7 @@ class _MaxTable5State extends State<MaxTable5> {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.lightBlueAccent,
+          backgroundColor: Colors.deepPurple.shade400,
           centerTitle: true,
           title: const Text('Bütün kullanıcılar'),
           leading: IconButton(

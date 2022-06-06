@@ -38,6 +38,7 @@ class _ReligionPageState extends State<ReligionPage> {
     //_startTimer();
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.brown.shade300,
         title: Text('1.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -72,6 +73,8 @@ class _ReligionPageState extends State<ReligionPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage2()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -80,6 +83,8 @@ class _ReligionPageState extends State<ReligionPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage2()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -88,6 +93,8 @@ class _ReligionPageState extends State<ReligionPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage2()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -96,6 +103,8 @@ class _ReligionPageState extends State<ReligionPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage2()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -105,6 +114,8 @@ class _ReligionPageState extends State<ReligionPage> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage2()));
                 firestore.updateData( );
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -113,6 +124,8 @@ class _ReligionPageState extends State<ReligionPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage2()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
           ],
@@ -136,6 +149,7 @@ class _ReligionPage2State extends State<ReligionPage2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.brown.shade300,
         title: Text('2.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -169,6 +183,8 @@ class _ReligionPage2State extends State<ReligionPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage3()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -178,6 +194,8 @@ class _ReligionPage2State extends State<ReligionPage2> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage3()));
                 firestore.updateData( );
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -186,6 +204,8 @@ class _ReligionPage2State extends State<ReligionPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage3()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -194,6 +214,8 @@ class _ReligionPage2State extends State<ReligionPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage3()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -202,6 +224,8 @@ class _ReligionPage2State extends State<ReligionPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage3()));
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -210,6 +234,8 @@ class _ReligionPage2State extends State<ReligionPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage3()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
           ],
@@ -232,6 +258,7 @@ class _ReligionPage3State extends State<ReligionPage3> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.brown.shade300,
         title: Text('3.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -265,6 +292,8 @@ class _ReligionPage3State extends State<ReligionPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage4()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -273,6 +302,8 @@ class _ReligionPage3State extends State<ReligionPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage4()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -281,6 +312,8 @@ class _ReligionPage3State extends State<ReligionPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage4()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -289,6 +322,8 @@ class _ReligionPage3State extends State<ReligionPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage4()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -298,6 +333,8 @@ class _ReligionPage3State extends State<ReligionPage3> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage4()));
                 firestore.updateData( );
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
             Positioned(
@@ -306,6 +343,8 @@ class _ReligionPage3State extends State<ReligionPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage4()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.brown.shade300),
               ),
             ),
           ],
@@ -327,6 +366,7 @@ class _ReligionPage4State extends State<ReligionPage4> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor: Colors.brown.shade300,
       title: Text('4.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -360,6 +400,8 @@ class _ReligionPage4State extends State<ReligionPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage5()));
             }, child: Text('A'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
           Positioned(
@@ -368,6 +410,8 @@ class _ReligionPage4State extends State<ReligionPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage5()));
             }, child: Text('B'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
           Positioned(
@@ -376,6 +420,8 @@ class _ReligionPage4State extends State<ReligionPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage5()));
             }, child: Text('C'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
           Positioned(
@@ -384,6 +430,8 @@ class _ReligionPage4State extends State<ReligionPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage5()));
             }, child: Text('D'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
           Positioned(
@@ -393,6 +441,8 @@ class _ReligionPage4State extends State<ReligionPage4> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage5()));
               firestore.updateData( );
             }, child: Text('E'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
           Positioned(
@@ -401,6 +451,8 @@ class _ReligionPage4State extends State<ReligionPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> ReligionPage5()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
         ],
@@ -422,6 +474,7 @@ class _ReligionPage5State extends State<ReligionPage5> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor: Colors.brown.shade300,
       title: Text('5.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -455,6 +508,8 @@ class _ReligionPage5State extends State<ReligionPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('A'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
           Positioned(
@@ -463,6 +518,8 @@ class _ReligionPage5State extends State<ReligionPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('B'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
           Positioned(
@@ -471,6 +528,8 @@ class _ReligionPage5State extends State<ReligionPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('C'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
           Positioned(
@@ -480,6 +539,8 @@ class _ReligionPage5State extends State<ReligionPage5> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
               firestore.updateData( );
             }, child: Text('D'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
           Positioned(
@@ -488,6 +549,8 @@ class _ReligionPage5State extends State<ReligionPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('E'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
           Positioned(
@@ -496,6 +559,8 @@ class _ReligionPage5State extends State<ReligionPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.brown.shade300),
             ),
           ),
         ],

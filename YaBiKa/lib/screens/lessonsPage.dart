@@ -17,8 +17,6 @@ class Lessons extends StatefulWidget {
 }
 
 class _LessonsState extends State<Lessons> {
-
-
   Future loaded() async {
     showDialog(
       context: context,
@@ -27,12 +25,13 @@ class _LessonsState extends State<Lessons> {
       },
     );
 
-    await ElevatedButton
-      (onPressed: () {
-        Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage()));
-    },
-      child: null,);
-
+    await ElevatedButton(
+      onPressed: () {
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => QuestionPage()));
+      },
+      child: null,
+    );
   }
 
   @override
@@ -41,15 +40,18 @@ class _LessonsState extends State<Lessons> {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.green.shade600,
           title: const Text('Matematik testi'),
           centerTitle: true,
-          leading: IconButton(onPressed: () {
-            Navigator.pop(context, MaterialPageRoute(builder: (context)=> MainPage()));
-          },
+          leading: IconButton(
+            onPressed: () {
+              Navigator.pop(
+                  context, MaterialPageRoute(builder: (context) => MainPage()));
+            },
             icon: const Icon(
-            Icons.arrow_back,
-            color: Colors.white,
-          ),
+              Icons.arrow_back,
+              color: Colors.white,
+            ),
           ),
         ),
         body: Center(
@@ -57,12 +59,23 @@ class _LessonsState extends State<Lessons> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               ElevatedButton(
-                  onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> const QuestionPage()
-                )
-                );
-              }, child: const Text('Başla !')
-              ),
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const QuestionPage()));
+                },
+                  style: ElevatedButton.styleFrom(
+                      primary: Colors.green.shade600,
+                      textStyle: const TextStyle(fontWeight: FontWeight.normal, fontSize: 25),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20)
+                      )
+                  ),
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 15, horizontal: 70),
+                    child: const Text('Başla !'),
+                  )),
             ],
           ),
         ),
@@ -85,11 +98,14 @@ class _Lessons2State extends State<Lessons2> {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.purple.shade900,
           title: const Text('Fen testi'),
           centerTitle: true,
-          leading: IconButton(onPressed: () {
-            Navigator.pop(context, MaterialPageRoute(builder: (context)=> MainPage()));
-          },
+          leading: IconButton(
+            onPressed: () {
+              Navigator.pop(
+                  context, MaterialPageRoute(builder: (context) => MainPage()));
+            },
             icon: const Icon(
               Icons.arrow_back,
               color: Colors.white,
@@ -102,11 +118,22 @@ class _Lessons2State extends State<Lessons2> {
             children: [
               ElevatedButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const SciencePage()
-                    )
-                    );
-                  }, child: const Text('Başla !')
-              ),
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const SciencePage()));
+                  },
+                  style: ElevatedButton.styleFrom(
+                      primary: Colors.purple.shade900,
+                      textStyle: const TextStyle(fontWeight: FontWeight.normal, fontSize: 25),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20)
+                      )
+                  ),
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 15, horizontal: 70),
+                    child: const Text('Başla !'),
+                  )),
             ],
           ),
         ),
@@ -129,11 +156,14 @@ class _Lessons3State extends State<Lessons3> {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.purple.shade300,
           title: const Text('İngilizce testi'),
           centerTitle: true,
-          leading: IconButton(onPressed: () {
-            Navigator.pop(context, MaterialPageRoute(builder: (context)=> MainPage()));
-          },
+          leading: IconButton(
+            onPressed: () {
+              Navigator.pop(
+                  context, MaterialPageRoute(builder: (context) => MainPage()));
+            },
             icon: const Icon(
               Icons.arrow_back,
               color: Colors.white,
@@ -146,11 +176,22 @@ class _Lessons3State extends State<Lessons3> {
             children: [
               ElevatedButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const EnglishPage()
-                    )
-                    );
-                  }, child: const Text('Başla !')
-              ),
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const EnglishPage()));
+                  },
+                  style: ElevatedButton.styleFrom(
+                      primary: Colors.purple.shade300,
+                      textStyle: const TextStyle(fontWeight: FontWeight.normal, fontSize: 25),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20)
+                      )
+                  ),
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 15, horizontal: 70),
+                    child: const Text('Başla !'),
+                  )),
             ],
           ),
         ),
@@ -173,11 +214,14 @@ class _Lessons4State extends State<Lessons4> {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.redAccent.shade400,
           title: const Text('Türkçe testi'),
           centerTitle: true,
-          leading: IconButton(onPressed: () {
-            Navigator.pop(context, MaterialPageRoute(builder: (context)=> MainPage()));
-          },
+          leading: IconButton(
+            onPressed: () {
+              Navigator.pop(
+                  context, MaterialPageRoute(builder: (context) => MainPage()));
+            },
             icon: const Icon(
               Icons.arrow_back,
               color: Colors.white,
@@ -190,11 +234,22 @@ class _Lessons4State extends State<Lessons4> {
             children: [
               ElevatedButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const TurkishPage()
-                    )
-                    );
-                  }, child: const Text('Başla !')
-              ),
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const TurkishPage()));
+                  },
+                  style: ElevatedButton.styleFrom(
+                      primary: Colors.redAccent.shade400,
+                      textStyle: const TextStyle(fontWeight: FontWeight.normal, fontSize: 25),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20)
+                      )
+                  ),
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 15, horizontal: 70),
+                    child: const Text('Başla !'),
+                  )),
             ],
           ),
         ),
@@ -217,11 +272,14 @@ class _Lessons5State extends State<Lessons5> {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.deepOrangeAccent.shade100,
           title: const Text('Coğrafya testi'),
           centerTitle: true,
-          leading: IconButton(onPressed: () {
-            Navigator.pop(context, MaterialPageRoute(builder: (context)=> MainPage()));
-          },
+          leading: IconButton(
+            onPressed: () {
+              Navigator.pop(
+                  context, MaterialPageRoute(builder: (context) => MainPage()));
+            },
             icon: const Icon(
               Icons.arrow_back,
               color: Colors.white,
@@ -234,11 +292,22 @@ class _Lessons5State extends State<Lessons5> {
             children: [
               ElevatedButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const GeographyPage()
-                    )
-                    );
-                  }, child: const Text('Başla !')
-              ),
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const GeographyPage()));
+                  },
+                  style: ElevatedButton.styleFrom(
+                      primary: Colors.deepOrangeAccent.shade100,
+                      textStyle: const TextStyle(fontWeight: FontWeight.normal, fontSize: 25),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20)
+                      )
+                  ),
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 15, horizontal: 70),
+                    child: const Text('Başla !'),
+                  )),
             ],
           ),
         ),
@@ -261,11 +330,14 @@ class _Lessons6State extends State<Lessons6> {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.brown.shade300,
           title: const Text('Din testi'),
           centerTitle: true,
-          leading: IconButton(onPressed: () {
-            Navigator.pop(context, MaterialPageRoute(builder: (context)=> MainPage()));
-          },
+          leading: IconButton(
+            onPressed: () {
+              Navigator.pop(
+                  context, MaterialPageRoute(builder: (context) => MainPage()));
+            },
             icon: const Icon(
               Icons.arrow_back,
               color: Colors.white,
@@ -278,11 +350,22 @@ class _Lessons6State extends State<Lessons6> {
             children: [
               ElevatedButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const ReligionPage()
-                    )
-                    );
-                  }, child: const Text('Başla !')
-              ),
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const ReligionPage()));
+                  },
+                  style: ElevatedButton.styleFrom(
+                      primary: Colors.brown.shade300,
+                      textStyle: const TextStyle(fontWeight: FontWeight.normal, fontSize: 25),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20)
+                      )
+                  ),
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 15, horizontal: 70),
+                    child: const Text('Başla !'),
+                  )),
             ],
           ),
         ),
@@ -290,5 +373,3 @@ class _Lessons6State extends State<Lessons6> {
     );
   }
 }
-
-

@@ -31,6 +31,7 @@ class GetMainPageView extends StatelessWidget {
     var mainPageView = MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           // AppBar title changes according to navbar index
           title: Text("Anasayfa"),
           centerTitle: true,
@@ -40,7 +41,7 @@ class GetMainPageView extends StatelessWidget {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> const LoginPage()));
             },
           ),
-          backgroundColor: Colors.blueGrey[900],
+          backgroundColor: Colors.deepPurple.shade400,
           actions: [
             Row(
               children: [

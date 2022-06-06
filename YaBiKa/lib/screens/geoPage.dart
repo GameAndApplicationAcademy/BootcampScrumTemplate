@@ -38,6 +38,7 @@ class _GeographyPageState extends State<GeographyPage> {
     //_startTimer();
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepOrangeAccent[100],
         title: Text('1.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -72,6 +73,8 @@ class _GeographyPageState extends State<GeographyPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage2()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -80,6 +83,8 @@ class _GeographyPageState extends State<GeographyPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage2()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -89,6 +94,8 @@ class _GeographyPageState extends State<GeographyPage> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage2()));
                 firestore.updateData( );
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -97,6 +104,8 @@ class _GeographyPageState extends State<GeographyPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage2()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -105,6 +114,8 @@ class _GeographyPageState extends State<GeographyPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage2()));
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -113,6 +124,8 @@ class _GeographyPageState extends State<GeographyPage> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage2()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
           ],
@@ -136,6 +149,7 @@ class _GeographyPage2State extends State<GeographyPage2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepOrangeAccent[100],
         title: Text('2.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -169,6 +183,8 @@ class _GeographyPage2State extends State<GeographyPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage3()));
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -177,6 +193,8 @@ class _GeographyPage2State extends State<GeographyPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage3()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -185,6 +203,8 @@ class _GeographyPage2State extends State<GeographyPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage3()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -194,6 +214,8 @@ class _GeographyPage2State extends State<GeographyPage2> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage3()));
                 firestore.updateData( );
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -202,6 +224,8 @@ class _GeographyPage2State extends State<GeographyPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage3()));
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -210,6 +234,8 @@ class _GeographyPage2State extends State<GeographyPage2> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage3()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
           ],
@@ -232,6 +258,7 @@ class _GeographyPage3State extends State<GeographyPage3> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepOrangeAccent[100],
         title: Text('3.Soru'),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -266,6 +293,8 @@ class _GeographyPage3State extends State<GeographyPage3> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage4()));
                 firestore.updateData( );
               }, child: Text('A'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -274,6 +303,8 @@ class _GeographyPage3State extends State<GeographyPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage4()));
               }, child: Text('B'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -282,6 +313,8 @@ class _GeographyPage3State extends State<GeographyPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage4()));
               }, child: Text('C'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -290,6 +323,8 @@ class _GeographyPage3State extends State<GeographyPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage4()));
               }, child: Text('D'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -298,6 +333,8 @@ class _GeographyPage3State extends State<GeographyPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage4()));
               }, child: Text('E'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
             Positioned(
@@ -306,6 +343,8 @@ class _GeographyPage3State extends State<GeographyPage3> {
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage4()));
               }, child: Text('BOŞ'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.deepOrangeAccent[100]),
               ),
             ),
           ],
@@ -327,6 +366,7 @@ class _GeographyPage4State extends State<GeographyPage4> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor: Colors.deepOrangeAccent[100],
       title: Text('4.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -360,6 +400,8 @@ class _GeographyPage4State extends State<GeographyPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage5()));
             }, child: Text('A'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
           Positioned(
@@ -368,6 +410,8 @@ class _GeographyPage4State extends State<GeographyPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage5()));
             }, child: Text('B'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
           Positioned(
@@ -376,6 +420,8 @@ class _GeographyPage4State extends State<GeographyPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage5()));
             }, child: Text('C'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
           Positioned(
@@ -384,6 +430,8 @@ class _GeographyPage4State extends State<GeographyPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage5()));
             }, child: Text('D'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
           Positioned(
@@ -393,6 +441,8 @@ class _GeographyPage4State extends State<GeographyPage4> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage5()));
               firestore.updateData( );
             }, child: Text('E'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
           Positioned(
@@ -401,6 +451,8 @@ class _GeographyPage4State extends State<GeographyPage4> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> GeographyPage5()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
         ],
@@ -422,6 +474,7 @@ class _GeographyPage5State extends State<GeographyPage5> {
   @override
   Widget build(BuildContext context) {return Scaffold(
     appBar: AppBar(
+      backgroundColor: Colors.deepOrangeAccent[100],
       title: Text('5.Soru'),
       actions: [
         IconButton(onPressed: () {}, icon: Icon(Icons.question_mark))
@@ -455,6 +508,8 @@ class _GeographyPage5State extends State<GeographyPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('A'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
           Positioned(
@@ -463,6 +518,8 @@ class _GeographyPage5State extends State<GeographyPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('B'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
           Positioned(
@@ -471,6 +528,8 @@ class _GeographyPage5State extends State<GeographyPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('C'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
           Positioned(
@@ -479,6 +538,8 @@ class _GeographyPage5State extends State<GeographyPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('D'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
           Positioned(
@@ -488,6 +549,8 @@ class _GeographyPage5State extends State<GeographyPage5> {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
               firestore.updateData( );
             }, child: Text('E'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
           Positioned(
@@ -496,6 +559,8 @@ class _GeographyPage5State extends State<GeographyPage5> {
             child: ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> EndGamePage()));
             }, child: Text('BOŞ'),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.deepOrangeAccent[100]),
             ),
           ),
         ],
