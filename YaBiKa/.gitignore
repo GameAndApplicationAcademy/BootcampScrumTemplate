@@ -32,7 +32,7 @@
 /build/
 
 # Web related
-YaBiKa/lib/generated_plugin_registrant.dart
+lib/generated_plugin_registrant.dart
 
 # Symbolication related
 app.*.symbols
@@ -41,6 +41,6 @@ app.*.symbols
 app.*.map.json
 
 # Android Studio will place build artifacts here
-/YaBiKa/android/app/debug
-/YaBiKa/android/app/profile
-/YaBiKa/android/app/release
+/android/app/debug
+/android/app/profile
+/android/app/release
