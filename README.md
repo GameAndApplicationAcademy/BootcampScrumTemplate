@@ -124,7 +124,7 @@ Alınan kararlar: Arkadaş ekle ve davet et özellikleri reddedildi.
 
 Story'ler yapılacak işlere göre düzenlenmiştir. Trello'daki her görevin altında detaylı açıklaması bulunabilir. 
 
-- **Daily Scrum**: Herkesin ayrı yoğunluklarından dolayı ortak bir gün belirlenmiştir. Çarşamba akşamları genel bir gözden geçirme ve durumu değerlendirme toplantısı yapıldı. Developer ekibi cuma günleri kendi aralarında ek bir toplantı alıp gelişmeleri slack ve wp üzerinden bildirdiler. Trello kartlarında yapılan düzenlemelerle ürün takibi sağlandı. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/GameAndApplicationAcademy/YaBiKa_App/tree/main/DailiyScrum%20MeetingNotes3)
+- **Daily Scrum**: Herkesin ayrı yoğunluklarından dolayı ortak bir gün belirlenmiştir. Çarşamba akşamları genel bir gözden geçirme ve durumu değerlendirme toplantısı yapıldı. Developer ekibi cuma günleri kendi aralarında ek bir toplantı alıp gelişmeleri slack ve wp üzerinden bildirdiler. Trello kartlarında yapılan düzenlemelerle ürün takibi sağlandı. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/GameAndApplicationAcademy/YaBiKa_App/tree/main/ProjectManagement/Sprint3Documents/DailiyScrum%20MeetingNotes3)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Backlog_1.jpg) 
@@ -134,7 +134,7 @@ Story'ler yapılacak işlere göre düzenlenmiştir. Trello'daki her görevin al
 - **Ürün Durumu**: Ekran görüntüleri:
   ![Screenshot 1](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Dersse%C3%A7me_ekran%C4%B1.jpg)
   ![Screenshot 2](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Giri%C5%9F_ekran%C4%B1.jpg)
-  ![Screenshot 3](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Backlog_3.jpg)
+  ![Screenshot 3](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Kay%C4%B1tol_ekran%C4%B1.jpg)
   ![Screenshot 4](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Liderliktablosu_ekran%C4%B1.jpg)
   ![Screenshot 5](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Profil_ekran%C4%B1.jpg)
   ![Screenshot 6](https://github.com/GameAndApplicationAcademy/YaBiKa_App/blob/main/ProjectManagement/Sprint3Documents/Soru_ekran%C4%B1.jpg)
